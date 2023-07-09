@@ -4,7 +4,7 @@ In this repository, we offer the code of LMA-Swin which is proposed in "Local-En
 The training and testing code can refer to [GeoSeg](https://github.com/WangLibo1995/GeoSeg).
 
 ## Network:
-![image](https://github.com/patricklee16/LMA-Swin/assets/51188249/522ebc64-1fee-446a-9935-8e200dd70a73)
+
 Fig. 1. Structure of the LMA-Swin.
 
 ## Result:
