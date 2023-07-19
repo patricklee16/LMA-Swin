@@ -1,10 +1,10 @@
 # LMA-Swin
 In this repository, we offer the code of LMA-Swin which is proposed in "Local-Enhanced Multi-Scale Aggregation Swin Transformer for Semantic Segmentation of High-Resolution Remote Sensing Images".
 
-The training and testing code can refer to [GeoSeg](https://github.com/WangLibo1995/GeoSeg).
+The training and testing progress is based on [GeoSeg](https://github.com/WangLibo1995/GeoSeg).
 
 ## Network:
-
+![image](https://github.com/patricklee16/LMA-Swin/assets/51188249/a16c6671-f9c3-47fb-92e1-49159111dda5)
 Fig. 1. Structure of the LMA-Swin.
 
 ## Result:
