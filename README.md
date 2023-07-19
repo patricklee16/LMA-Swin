@@ -3,7 +3,7 @@ In this repository, we offer the code of LMA-Swin which is proposed in "Local-En
 
 The training and testing progress is based on [GeoSeg](https://github.com/WangLibo1995/GeoSeg).
 
-You can download the trained model weights on [BaiduDisk](https://pan.baidu.com/s/1dvIplebkSeyMA9jU2g7ffw) code: lmas
+You can download the trained model weights on [BaiduDisk](https://pan.baidu.com/s/1dvIplebkSeyMA9jU2g7ffw).   Code: lmas
 ## Network:
 ![image](https://github.com/patricklee16/LMA-Swin/assets/51188249/a16c6671-f9c3-47fb-92e1-49159111dda5)
 Fig. 1. Structure of the LMA-Swin.
