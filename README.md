@@ -68,13 +68,19 @@ python GeoSeg/train_supervision.py -c GeoSeg/config/vaihingen/lmaswin.py
 ## Testing
 **Vaihingen**
 ```
-python GeoSeg/vaihingen_test.py -c GeoSeg/config/vaihingen/dcswin.py -o fig_results/vaihingen/dcswin --rgb -t 'd4'
+python GeoSeg/vaihingen_test.py -c GeoSeg/config/vaihingen/lmaswin.py -o fig_results/vaihingen/lmaswin --rgb -t 'd4'
 ```
 **Potsdam**
 ```
-python GeoSeg/potsdam_test.py -c GeoSeg/config/potsdam/dcswin.py -o fig_results/potsdam/dcswin --rgb -t 'lr'
+python GeoSeg/potsdam_test.py -c GeoSeg/config/potsdam/lmaswin.py -o fig_results/potsdam/lmaswin --rgb -t 'lr'
 ```
+"-c" denotes the path of the config, Use different config to test different models
 
+"-o" denotes the output path
+
+"-t" denotes the test time augmentation (TTA), can be [None, 'lr', 'd4'], default is None, 'lr' is flip TTA, 'd4' is multiscale TTA
+
+"--rgb" denotes whether to output masks in RGB format
 ## Visualization Results
 ![image](https://github.com/patricklee16/LMA-Swin/assets/51188249/566d17d1-2e49-4542-89df-99a3a620718e)
 
